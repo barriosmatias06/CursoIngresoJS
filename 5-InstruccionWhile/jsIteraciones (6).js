@@ -1,8 +1,17 @@
 function Mostrar()
 {
 
-	var contador=0;
+	var contador=1;
 	var acumulador=0;
+	while (contador<6)
+		{
+			num=parseInt(prompt("Ingrese un número"))
+			if (!isNaN(num))
+				{
+					contador++;
+					acumulador=acumulador+num;
+				}
+		}
 
 
 
